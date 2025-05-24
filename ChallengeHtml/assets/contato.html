@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <link rel="shortcut icon" href="./img/hc.png">
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="cima">
+            <h1>Contato</h1>
+        </header>
+
+        <main class="texto">
+            <h2>Endereço:</h2>
+            <p>Av. Dr. Enéas de Carvalho Aguiar, 255 Cerqueira César 05403-000 São Paulo - Brasil Tel.: (011) 2661-0000
+            </p>
+
+            <h2>E-mail:</h2>
+            <p>webmaster.nci@hc.fm.usp.br</p>
+        </main>
+
+        <nav class="menu-contato">
+            <ul class="lista-menu">
+                <li class="link"><a href="../Index.html">Home</a></li>
+                <li class="link"><a href="#">Contato</a></li>
+                <li class="link"><a href="./faq.html">Faq</a></li>
+                <li class="link"><a href="./integrantes.html">Integrantes</a></li>
+            </ul>
+        </nav>
+
+        <footer>
+            <h2>Nós mande uma mensagem</h2>
+            <div>
+                <form form action="#" method="GET" id="frmContato">
+                    <fieldset>
+                        <legend>Digite suas informações</legend>
+                        <div>
+                            <label for="idNome">Nome</label>
+                            <input type="text" name="nome" id="idNome" placeholder="Digite o seu nome">
+                        </div>
+                        <div>
+                            <label for="idEmail">Email</label>
+                            <input type="email" name="email" id="idEmail" placeholder="Digite o seu email">
+                        </div>
+                        <div>
+                            <button type="submit" id="btnEnviar" onclick="mostrarAviso()">ENVIAR</button>
+                            <a href="#" onclick="console.log('Enviado')"></a>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
